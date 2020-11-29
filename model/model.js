@@ -71,8 +71,8 @@ function fallen() {
             labelContainer.childNodes[i].innerHTML = classPrediction;
 
             if(prediction[1].probability.toFixed(2) == 1.00){
-                window.alert("Emergency! " + name + " has fallen!");
                 fallen();
+                window.alert("Emergency! " + name + " has fallen!");
               }
         }
 
