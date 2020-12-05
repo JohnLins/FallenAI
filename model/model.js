@@ -70,7 +70,7 @@ function fallen() {
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
 
-            if(prediction[1].probability.toFixed(2) >= 0.80){
+            if(prediction[1].probability.toFixed(2) >= 0.90){
                 fallen();
                 window.alert("Emergency! " + name + " has fallen!");
               }
